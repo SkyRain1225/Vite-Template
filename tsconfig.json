@@ -10,11 +10,7 @@
     "skipLibCheck": true,
     "allowSyntheticDefaultImports": true,
     "useDefineForClassFields": true,
-    "lib": [
-      "DOM",
-      "DOM.Iterable",
-      "ESNext"
-    ],
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
     "noEmit": true,
     "jsx": "preserve",
     "forceConsistentCasingInFileNames": true,
@@ -22,18 +18,13 @@
     "declaration": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "types": [
-      "vite/client"
-    ],
+    "types": ["vite/client"],
     "plugins": [
       {
         "name": "typescript-styled-plugin"
       }
     ]
   },
-  "include": [
-    "./src",
-    "vite.config.ts"
-  ],
+  "include": ["./src", "vite.config.ts"],
   "extends": "./tsconfig.paths.json"
 }
