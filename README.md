@@ -31,3 +31,9 @@ yarn build
 ```bash
 yarn preview
 ```
+
+#### generator
+
+```bash
+node generator.mjs
+```
